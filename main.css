@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#section1 {
+    margin: 0;
+    background: linear-gradient( rgba(101,175,255, 0.8), rgba(222, 22, 22, 0.8)), url(/Users/bwexler/Desktop/WDF/newPortfolio/architectural-design-architecture-buildings-830891.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#nameContainer {
+    /* height: 200px;
+    width: 300px; */
+    /* border: 1px solid white; */
+    margin: auto;
+    margin-top: 0%;
+    font-size: 40px;
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-family: 'Work Sans', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    margin-top: 10px;
+    font-size: 30px;
+    color: white;
+}
