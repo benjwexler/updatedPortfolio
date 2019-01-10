@@ -5,36 +5,61 @@
     font-family: 'Permanent Marker', cursive;
 }
 
+a:link {
+    text-decoration:none;
+    color: white;
+
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+
+}
+
 #section1 {
     margin: 0;
-    background: linear-gradient( rgba(101,175,255, 0.8), rgba(222, 22, 22, 0.8)), url(/Users/bwexler/Desktop/WDF/newPortfolio/architectural-design-architecture-buildings-830891.jpg) no-repeat center center fixed;
+    background: linear-gradient( rgba(101,175,255, 0.8), rgba(222, 22, 22, 0.8)), url(pics/cityBG.jpg) no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    width: 100%;
-    min-height: 100vh;
+    /* width: 100%; */
+    /* min-height: 100vh; */
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     position: relative;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.thirds {
+    height: 33.33%;
+    width: 100%;
+    position: relative;
+    min-height: 189px;
+    /* border: 1px solid black; */
+    /* margin: auto; */
 }
 
 #nameContainer {
     /* height: 200px;
     width: 300px; */
     /* border: 1px solid white; */
-    margin: auto;
+    /* margin: auto; */
     margin-top: 10px;
-    font-size: 40px;
+    margin-top: 0px;
+    font-size: 55px;
     color: white;
     font-family: 'Staatliches', cursive;
     font-family: 'Work Sans', sans-serif;
     font-family: 'Permanent Marker', cursive;
 
     text-align: center;
-    margin-bottom: 00px;
+    /* margin-bottom: 00px; */
 }
 
 #title {
@@ -43,6 +68,7 @@
     margin-top: 10px;
     font-size: 30px;
     color: white;
+    margin-bottom: 0px;
     
 }
 
@@ -91,6 +117,30 @@
 
 .fab {
     margin: auto;
+    background: rgba(0,  0, 0, 0.39);
+    /* background: rgba(255, 255, 255, 0.913); */
+    margin: auto;
+    /* margin-bottom: 35px; */
+    border-radius: 1%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.option {
+    height: auto;
+    width: 230px;
+    border: 5px solid white;
+    text-align: center;
+
+    color: white;
+    background: rgba(0, 0, 0, 0.39);
+    margin: auto;
+    margin-bottom: 35px;
+    border-radius: 1%;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .center {
@@ -166,9 +216,49 @@
 }
 
 .fa-angle-double-down {
-    color: white;
+    color: rgba(255, 255, 255, 0.808);
+    opacity: 0;
+    /* color: rgba(0,  0, 0, 0.39); */
     font-size: 28px;
-    /* border: 1px solid white;  */
-  
+    /* border: 1px solid rgba(0,  0, 0, 0.39);  */
+    /* background: rgba(255, 255, 255, 0.137); */
+    /* background: rgba(24, 24, 24, 0.548); */
+    /* background: rgba(101, 175, 255, 0.123); */
+  /* margin: auto; */
     margin-bottom: 10px;
+    /* background: rgba(0, 0, 0, 0.39);
+    background: rgba(0, 0, 0, 0.276); */
+    /* background: rgba(0, 0, 0, 0.151); */
+    margin: auto;
+    /* margin-bottom: 35px; */
+    border-radius: 1%;
+    padding-top: 5px;
+    /* padding-bottom: 3px; */
+    padding-left: 5px;
+    padding-right: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /* border: 1px solid white; */
+    /* text-align: center !important; */
+    /* transform: translate(-50%, 0%); */
+
+}
+
+#bottomContainer {
+    position: absolute;
+    bottom: 0%;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    width: 62%;
+    /* max-width: 450px; */
+    max-width: 220px;
+}
+
+#downArrowContainer {
+    margin: auto !important;
+    width: 100%;
+    text-align: center;
+    /* justify-content: center; */
 }
