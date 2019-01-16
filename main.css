@@ -19,7 +19,7 @@ a:visited {
 
 #section1 {
     margin: 0;
-    background: linear-gradient( rgba(101,175,255, 0.8), rgba(222, 22, 22, 0.8)), url(pics/cityBG.jpg) no-repeat center center fixed;
+    background: linear-gradient( rgba(101,175,255, 0.8), rgba(222, 22, 22, 0.8)), url(pics/cityBG-compressed.jpg) no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -78,7 +78,7 @@ a:visited {
     width: 140px;
     height: 140px;
     margin-top: 5px;
-    background: black;
+    /* background: black; */
     border-radius: 50%;
     /* margin-bottom: 0px; */
     
@@ -120,7 +120,7 @@ a:visited {
     background: rgba(0,  0, 0, 0.39);
     /* background: rgba(255, 255, 255, 0.913); */
     margin: auto;
-    /* margin-bottom: 35px; */
+    /* margin-bottom: 3f5px; */
     border-radius: 1%;
     padding-top: 5px;
     padding-bottom: 5px;
