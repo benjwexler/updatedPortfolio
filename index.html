@@ -1,83 +1,292 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Ben Wexler Codes</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="apple-touch-icon" sizes="144x144" href="fapple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="pdf/pdf.js"></script>
+<script src="pdf/pdf.worker.js"></script>
+    <script src="simple.js"></script>
     <!-- <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Staatliches|Work+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Staatliches|Work+Sans" rel="stylesheet">
     
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto|Staatliches|Work+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto|Staatliches|Thasadith|Work+Sans" rel="stylesheet"> -->
-    <link href="https://fonts.googleapis.com/css?family=Exo+2|Permanent+Marker|Roboto|Staatliches|Thasadith|Work+Sans" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Exo+2|Permanent+Marker|Roboto|Staatliches|Thasadith|Work+Sans"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-    crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/> -->
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="page2.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="projects.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="page3.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="footer.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="textBubble.css"
+    />
     <link rel="stylesheet" type="text/css" media="screen" href="hover.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="mediaQuerries.css" />
-    <script src="main.js"></script>
-</head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="mediaQuerries.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="page2mediaQueries.css"
+    />
+    <!-- <script src="//www.powr.io/powr.js?external-type=html"></script> -->
+  </head>
 
-<body>
+  <body>
     <div id="section1">
-        <div class="thirds">
-            <div id="nameContainer">Ben Wexler</div>
+      <div class="thirds">
+        <div id="nameContainer">Ben Wexler</div>
 
-            <div id="picContainer">
-                <img id="profPic" src="pics/Profile_Pic.jpeg">
-            </div>
-
+        <div id="picContainer">
+          <img id="profPic" src="pics/Profile_Pic.jpeg" />
         </div>
-        <!-- <div id="email">BenWexlerCodes@gmail.com</div> -->
-        <div class="thirds">
-
-            <div class="option">
-                    <a href="https://developedbywex.wordpress.com/about-me/">About</a></div>
-            <div class="option">
-                    <a href="https://developedbywex.wordpress.com">Projects</a></div>
-   
-            <div class="option">
-                    <a href="https://docs.google.com/document/d/1RvvV_Jt6YaZKq8U-i4Jz_e7JWW1NgHlOSUWWBQgPNj0/edit?usp=sharing">Resume</a>
-                </div>
-            <div class="option">
-                    <a href="mailto:bwexler89@gmail.com">Contact</a>
-            </div>
-
-
+      </div>
+      <!-- <div id="email">BenWexlerCodes@gmail.com</div> -->
+      <div class="thirds">
+        <div class="option">
+          <a href="https://developedbywex.wordpress.com/about-me/">About</a>
         </div>
-        <div class="thirds">
-            <div id="bottomContainer">
-                <div id="linkContainer">
-                        <a href="https://www.linkedin.com/in/benjwexler/"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/benjwexler"><i class="fab fa-github-square"></i></a>
-                </div>
+        <div class="option">
+          <a href="https://developedbywex.wordpress.com">Projects</a>
+        </div>
 
-                <div id="title">Full-Stack Web Developer</div>
-                <div id="downArrowContainer">
-                        <i class="fas fa-angle-double-down"></i>
-                </div>
-                
-            </div>
+        <div class="option">
+          <a
+            href="https://docs.google.com/document/d/1RvvV_Jt6YaZKq8U-i4Jz_e7JWW1NgHlOSUWWBQgPNj0/edit?usp=sharing"
+            >Resume</a
+          >
+        </div>
+        <div class="option">
+          <a href="mailto:bwexler89@gmail.com">Contact</a>
+        </div>
+      </div>
+      <div class="thirds">
+        <div id="bottomContainer">
+          <div id="linkContainer">
+            <a href="https://www.linkedin.com/in/benjwexler/"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/benjwexler"
+              ><i class="fab fa-github-square"></i
+            ></a>
+          </div>
 
-            <!-- <div class="center">
-            Projects
+          <div id="title">Full-Stack Web Developer</div>
+          <div id="downArrowContainer">
+            <i class="fas fa-angle-double-down"></i>
+          </div>
         </div>
-        <div class="center2">
-            About
-        </div>
-        <div class="center3">
-            Contact
-        </div>
-        <div class="center4">
-            Skills
-        </div> -->
-        </div>
+      </div>
+    </div>
+    <div id="stickyNav">
+      <div id="aboutMeBigText">
+        About Me
+      </div>
+      <div class="inactive" id="aboutMeBigText">
+        Projects
+      </div>
+      <div class="inactive" id="aboutMeBigText">
+        Resume
+      </div>
+      <div class="inactive" id="aboutMeBigText">
+        Contact
+      </div>
     </div>
 
-</body>
+    <div id="page1point5">
+      <div id="inner1point5">
+          <div style="text-decoration: underline"  id="resumeTitle">About Me</div>
+          <div id="experienceContainer">
+            <div class="jobContainer">
+                <img class="center" src="https://labs.chiedo.com/wp-content/themes/chiedolabs/img/b-logo-white.png?ver=1.11">
+            </div>
+            <div class="jobContainer">
+                <img style="background: white; width: 70%; height: 70%;" class="center" src="https://columbia.reunioniq.com/assets/img/seas-darkblue-vert.png">
+            </div>
+            <div class="jobContainer">
+                <img class="center" src="https://s3.amazonaws.com/fullstackwebsite/ttplogo-white.png">
+            </div>
+          </div>
+      </div>
+    </div>
+    <div id="projectSection">
+        <div id="inner1point5">
+            <div style="text-decoration: underline"  id="resumeTitle">Projects</div>
+            
+        </div>
+    </div>
+    <div id="page2">
 
+      <div id="resumeTitle">Resume</div>
+
+        <iframe id="newIframe" src="https://drive.google.com/file/d/1AL4FJ7fiZ0V3HC0EszLMdYYWL7Jcuftv/preview"></iframe>
+
+
+    </div>
+
+    <div id="footer"></div>
+
+    
+      
+      <!-- <div class="talk-bubble tri-right border round btm-left-in">
+                    <div class="talktext">
+                      <p>
+                          Hey, I'm Ben. I'm currently working as a Midlevel Developer at Chiedo Labs.
+                        </p>
+                    </div>
+                  </div> -->
+      <!-- <div class="flexContainer">
+        <div class="dot"></div>
+        <div class="text">
+          <span class="boldText">Hey, I’m Ben</span>. I’m a full-stack software
+          developer. I graduated from the University of Miami and the New York
+          Tech Talent Pipeline Web Development Fellowship program.
+        </div>
+      </div>
+
+      <div style="margin-top: 50px" class="flexContainer">
+        <div class="dot"></div>
+        <div class="text">
+          <span class="boldText">I’m passionate about music and coding</span>,
+          and my most recent project combined the two by creating a virtual drum
+          machine with features that include custom key mapping, midi support,
+          and Note Repeat.
+        </div>
+      </div>
+
+      <div style="margin-top: 50px" class="flexContainer">
+        <div class="dot"></div>
+        <div class="text">
+          <span class="boldText"
+            >I enjoy all aspects of the full-stack process</span
+          >. I’m constantly trying to improve my design skills, but I also love
+          setting up databases and routing.
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <div class="your-class">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+          </div> -->
+    <!-- <div id="page3">
+      <!-- <iframe id="myResume" src="https://docs.google.com/document/d/e/2PACX-1vQKjhUULtVvLjfoCQXVA8x2QOldKFqZkfj_bghgEPE4VoNFGXvtB27Pu49DnlI4ogPzVJhUVUirdZwg/pub?embedded=true"></iframe> -->
+
+      <!-- data="Assembly.pdf?#zoom=100&scrollbar=1&toolbar=1&navpanes=1" -->
+      <!-- <div id="myResumeContainer">
+        <embed
+        width="100%"
+        height="1100px"
+        internalinstanceid="5"
+       
+          src="/Users/bwexler/Desktop/WDF/newPortfolio/Ben Wexler Resume (3_13_19).pdf"
+        ></embed>
+      </div> -->
+
+    <!-- <div id="Iframe-Master-CC-and-Rs" class="set-margin set-padding set-border set-box-shadow center-block-horiz">
+        <div class="responsive-wrapper 
+           responsive-wrapper-wxh-572x612"
+           style="-webkit-overflow-scrolling: touch; overflow: auto;">
+      
+           <iframe src="https://www.slideshare.net/slideshow/embed_code/key/78NW2yxg5UZMM3"> 
+            <p style="font-size: 110%;"><em><strong>ERROR: </strong>  
+      An &#105;frame should be displayed here but your browser version does not support &#105;frames. </em>Please update your browser to its most recent version and try again.</p>
+          </iframe>
+          
+        </div>
+      </div>  -->
+
+     <!-- responsive iframe --> 
+<!-- ============== -->
+
+<!-- <div id="Iframe-Cicis-Menu-To-Go" class="set-margin-cicis-menu-to-go set-padding-cicis-menu-to-go set-border-cicis-menu-to-go set-box-shadow-cicis-menu-to-go center-block-horiz">
+  <div class="responsive-wrapper 
+     responsive-wrapper-padding-bottom-90pct"
+     style="-webkit-overflow-scrolling: touch; overflow: auto;">
+     <iframe src="https://drive.google.com/file/d/1AL4FJ7fiZ0V3HC0EszLMdYYWL7Jcuftv/preview"
+      <p style="font-size: 110%;"><em><strong>ERROR: </strong>  
+An &#105;frame should be displayed here but your browser version does not support &#105;frames.</em> Please update your browser to its most recent version and try again, or access the file <a href="https://drive.google.com/file/d/0BxrMaW3xINrsR3h2cWx0OUlwRms/preview"with this link.</a></p>
+    </iframe>
+  </div>
+</div> -->
+
+
+
+<!-- <iframe src="https://drive.google.com/file/d/1AL4FJ7fiZ0V3HC0EszLMdYYWL7Jcuftv/preview" width="640" height="480"></iframe> -->
+
+
+      <!-- <canvas id="pdf"></canvas> -->
+
+      <!-- <embed src="https://drive.google.com/open?id=1AL4FJ7fiZ0V3HC0EszLMdYYWL7Jcuftv" width="500" height="375"> -->
+    
+
+    <!-- <iframe src="https://www.powr.io/plugins/resume/view?unique_label=52170933_1553292052&external_type=iframe" width="100%" height="600" frameborder="0"></iframe> -->
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <!-- <script type="text/javascript" src="slick/slick.min.js"></script> -->
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(".your-class").slick({
+          rtl: true,
+          slidesToShow: 3
+        });
+      });
+    </script>
+
+    <script src="main.js"></script>
+  </body>
 </html>

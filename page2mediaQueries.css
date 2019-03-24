@@ -1,0 +1,34 @@
+@media only screen and (max-width: 811px) {
+
+    /* #page2 {
+        display: none;
+        background: linear-gradient( rgba(101, 175, 255, 0.767), rgba(222, 22, 22, 0.548)), url(pics/compBgLarge.jpg) no-repeat center center fixed;
+
+    } */
+
+    #aboutMeBigText {
+        margin-left: auto;
+        margin-right: auto;
+    } 
+   
+  }
+
+  /* @media only screen and (max-width: 711px) {
+
+ 
+
+    #aboutMeBigText {
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+  } */
+
+  @media only screen and (max-height: 600px) {
+
+   #stickyNav {
+       display: none;
+   }
+
+
+  }
